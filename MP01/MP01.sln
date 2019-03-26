@@ -5,12 +5,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInput", "UserInput\UserInput.csproj", "{35DE8EC8-F871-485A-8437-B581455EFF53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "About", "About\About.csproj", "{8CCC3690-3656-49BC-9DD6-FABCBCB959F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colors", "Colors\Colors.csproj", "{237807F3-58FF-4C5E-B48E-E659809A2B67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{237807F3-58FF-4C5E-B48E-E659809A2B67}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{237807F3-58FF-4C5E-B48E-E659809A2B67}.Debug|x86.Build.0 = Debug|Any CPU
+		{237807F3-58FF-4C5E-B48E-E659809A2B67}.Release|x86.ActiveCfg = Release|Any CPU
+		{237807F3-58FF-4C5E-B48E-E659809A2B67}.Release|x86.Build.0 = Release|Any CPU
 		{35DE8EC8-F871-485A-8437-B581455EFF53}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{35DE8EC8-F871-485A-8437-B581455EFF53}.Debug|x86.Build.0 = Debug|Any CPU
 		{35DE8EC8-F871-485A-8437-B581455EFF53}.Release|x86.ActiveCfg = Release|Any CPU
@@ -19,5 +27,9 @@ Global
 		{6BE5B5BC-3364-4122-8CAE-FC6EBD471E5C}.Debug|x86.Build.0 = Debug|x86
 		{6BE5B5BC-3364-4122-8CAE-FC6EBD471E5C}.Release|x86.ActiveCfg = Release|x86
 		{6BE5B5BC-3364-4122-8CAE-FC6EBD471E5C}.Release|x86.Build.0 = Release|x86
+		{8CCC3690-3656-49BC-9DD6-FABCBCB959F5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8CCC3690-3656-49BC-9DD6-FABCBCB959F5}.Debug|x86.Build.0 = Debug|Any CPU
+		{8CCC3690-3656-49BC-9DD6-FABCBCB959F5}.Release|x86.ActiveCfg = Release|Any CPU
+		{8CCC3690-3656-49BC-9DD6-FABCBCB959F5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
