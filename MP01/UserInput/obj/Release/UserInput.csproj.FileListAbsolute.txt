@@ -2,3 +2,8 @@ C:\aula\primeri.csharp.miniproject01\MP01\UserInput\bin\Release\UserInput.dll
 C:\aula\primeri.csharp.miniproject01\MP01\UserInput\bin\Release\UserInput.pdb
 C:\aula\primeri.csharp.miniproject01\MP01\UserInput\obj\Release\UserInput.dll
 C:\aula\primeri.csharp.miniproject01\MP01\UserInput\obj\Release\UserInput.pdb
+C:\aula\primeri.csharp.miniproject01\MP01\UserInput\bin\Release\About.dll
+C:\aula\primeri.csharp.miniproject01\MP01\UserInput\bin\Release\Colors.dll
+C:\aula\primeri.csharp.miniproject01\MP01\UserInput\bin\Release\About.pdb
+C:\aula\primeri.csharp.miniproject01\MP01\UserInput\bin\Release\Colors.pdb
+C:\aula\primeri.csharp.miniproject01\MP01\UserInput\obj\Release\UserInput.csprojResolveAssemblyReference.cache

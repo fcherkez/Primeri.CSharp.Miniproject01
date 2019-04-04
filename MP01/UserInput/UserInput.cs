@@ -6,6 +6,7 @@ namespace UserInput
 	{
 		About.Me about = new About.Me ();
 		Colors.ForCLI _c = new Colors.ForCLI ();
+		Calculations.MainLibrary _calc = new Calculations.MainLibrary ();
 		public UInput ()
 		{
 		}
@@ -34,11 +35,10 @@ namespace UserInput
 				_c.Command ();      _command = Console.ReadLine ();
 
 				//Проверка за налични команди
-				if (_command.ToLower ().Contains ("команда1") )              
-				{
-					_c.Default ();     Console.Write ("Стартирана е ");
-					_c.Result ();      Console.WriteLine ("Команда 1 \n");
-				}
+				if (_command.ToLower ().Contains ("яма") )         _calc.F01.calc (_command);      
+
+					
+				
 				if (_command.ToLower ().Contains ("команда2") )               Console.WriteLine ("Стартирана е команда 2 \n");
 				if (_command.ToLower ().Contains ("команда3") )               Console.WriteLine ("Стартирана е команда 3 \n");
 
