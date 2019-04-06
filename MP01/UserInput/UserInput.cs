@@ -36,11 +36,11 @@ namespace UserInput
 
 				//Проверка за налични команди
 				if (_command.ToLower ().Contains ("яма") )         _calc.F01.calc (_command);      
-				if (_command.ToLower ().Contains ("въгъл") )         _calc.F02.calc (_command);      
+				if (_command.ToLower ().Contains ("въгъл") )        _calc.F02.calc (_command);      
 
 					
 
-				if (_command.ToLower ().Contains ("команда3") )               Console.WriteLine ("Стартирана е команда 3 \n");
+				if (_command.ToLower ().Contains ("иъгъл") )        _calc.F03.calc (_command);       
 
 
 			} while (_command.ToLower () != "изход");
