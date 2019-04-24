@@ -8,12 +8,17 @@ namespace Calculations
 	{
 		//Библиотеки
 		private Colors.ForCLI _c = new Colors.ForCLI ();
-		public Formula01 () //Формула за обикновена строителна яма
+
+		/// <summary>
+		/// Конструктор на формула 01 </summary>
+		public Formula01 () 
 		{
+			calc (
 		}
 
-
-		//Парсване
+		/// <summary>
+		/// Метод за пресмятане на формула 01 </summary>
+		/// <param name="_userInput">Това е цялата команда от параметри въведена от потребителя</param>
 
 		public void calc (string _userInput)
 		{
@@ -42,7 +47,10 @@ namespace Calculations
 					}
 				}
 		
-		//Изчисляване и изписване
+		/// <summary>
+		/// Вътрешен метод за пресмятане на формула 01, сллед парсване на командата от потребителя </summary>
+				/// <param name="_param">Това е масив от стрингове, който съдържа командата с параметрите от потребителя</param>
+				/// <param name="_result">В тази променлива ще бъде върнат резултата от формулата</param>
 		private bool runCalculations (string[] _param, out double _result )
 		{
 			try {
@@ -63,8 +71,9 @@ namespace Calculations
 			_result = 0;
 			return false;
 		}
-
-		//Помощ за команндата
+		/// <summary>
+		/// Вътрешен метод, показващ синтаксиса на командата в командният ред.  </summary>
+	
 			private void help ()
 			{
 			_c.Result ();     Console.Write ("[яма]");
